@@ -1,0 +1,49 @@
+/*
+	Eric Dong & Julie Ko
+	CS 351 Team Project
+*/
+
+
+html {
+	background-color: 	#F2F5A9;
+}
+
+#banner {
+	font-size: 			70px;
+	color: 				#610B0B;
+
+}
+
+#footer {
+	float: 				bottom;
+	width: 				100%;
+	text-align: 		center;
+	color:				#610B0B;
+}
+
+.stop-scroll {
+	height:				100%;
+	overflow:			hidden;
+}
+
+.links {
+	font-family: 		Verdana;
+	text-align: 		center;
+}
+
+
+h1, h2, h3, h4 {
+	color:#610B0B; 
+	font-family: 		Georgia;
+}
+
+#nom{
+	color:				#610B0B; 
+	font-size:			60px; 
+	font-family:		Verdana;
+
+	text-align: 		left;
+}
+.h3{
+	color:				#610B0B;
+}

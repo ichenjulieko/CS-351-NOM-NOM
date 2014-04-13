@@ -1,0 +1,27 @@
+#title{
+	font-size: 40px;
+	color: #610B0B;
+}
+
+#posts{
+	background-color: #FFCC33;
+}
+
+#allposts{
+	width: 70%;
+	/*position: absolute;*/
+}
+
+#categories{
+	position: relative;
+	float: right;
+}
+#cat{
+	font-size: 30px;
+	color: #610B0B;
+	margin-right: 150px;
+}
+#new{
+	color: #610B0B;
+	font:30px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Contact Us
+	</title>
+	<link type="text/css" rel="stylesheet" href="../css/GeneralStyle.css"/>
+	<script type="text/javascript" src="../jScript/BannerScript.js" /></script>
+</head>
+<body>
+	<!--	Load the banner 	-->
+	<script/>loadBanner()</script>
+
+	<form name='contactform' onsubmit='return confirmsubmit();' onreset='return confirmreset();'>
+	<p><h3 class="h3">Contact us by sending your messages below</h3></p>
+	<p>Name: <input type='text' name='name'/></p>
+	<br>Comment:</br>
+	<textarea name='comment' rows='10' cols='40'></textarea>
+	<p><input type='submit' value='Submit'/>
+	<input type='reset' value='Reset'/></p>
+	</form>
+
+	<script type="text/javascript" >
+	function confirmreset(){
+		var resetform = confirm("Are you sure you want to start over?")
+		if(resetform == true){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	function confirmsubmit(){
+		var x = document.forms["contactform"][name].value;
+		var y = document.forms["contactform"][comment].value;
+		if(x == null || x == "" || y == null || y == ""){
+			alert("You must enter your name or comments!");
+			return false;
+		}
+		else{
+			confirm("Submit successfully!")
+			return true;
+		}
+	}
+	</script>
+
+	<div style="clear: both;"></div>
+	<br><br><hr>
+
+	<!--	Load the footer 	-->
+	<script/>loadFooter()</script>
+</body>
+</html>

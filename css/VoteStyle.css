@@ -1,0 +1,172 @@
+/*
+	Eric Dong
+	CS 351 Team Project
+	Partner: Julie(Ichen) Ko
+*/
+
+
+.image {
+	cursor: 			pointer;
+	opacity: 			0.7;
+}
+
+.cell {
+	padding:			30px 0px 30px 0px;
+	text-align: 		center;
+}
+
+.divide {
+	margin-left: 		15px;
+	margin-right: 		15px;
+}
+
+.vote {
+	height:				50px;
+	width: 				50px;
+
+	margin-left: 		-25px;
+
+	display:			none;
+}
+
+
+#upload {
+	position:			absolute;
+	top:				400px;
+	right:				20px;
+
+	font-size: 			15px;
+
+	cursor: 			pointer;
+}
+
+#uploadDiv {
+	display:			none;
+	z-index: 			10;
+	position: 			fixed;
+	left: 				30%;
+	top: 				50%;
+
+	width:				40%;
+	height:				0px;
+
+	background-color: 	white;
+
+	border-style: 		groove;
+}
+
+#browse {
+	margin-top: 		10px;
+	margin-left:		10px;
+}
+#submit {
+	float:				right;
+	margin-right: 		10px;
+}
+#cancel {
+	position: 			absolute;
+	bottom: 			5px;
+	left: 				10px;
+}
+
+#fileName {
+	float:				left;
+	margin-top: 		10px;
+	margin-left: 		10px;
+}
+
+#upVote {
+	position:			fixed;
+	z-index: 			20;
+
+	bottom:				10px;
+	left:				40%;
+
+	background-image: 	url("../ref/ThumbsUp.jpg");
+}
+
+#dismiss {
+	position:			fixed;
+	z-index: 			20;
+
+	bottom:				10px;
+	left:				50%;
+
+	background-image: 	url("../ref/Dismiss.png");
+}
+
+#downVote {
+	position:			fixed;
+	z-index: 			20;
+
+	bottom:				10px;
+	left:				60%;
+
+	background-image: 	url("../ref/ThumbsDown.jpg");
+}
+
+#next {
+	float:				right;
+	position:			relative;
+
+	width:				10%;
+	height:				400px;
+	top:				50%;
+	transform: 			translateY(41%);
+
+	opacity:			0.5;
+	cursor: 			pointer;
+}
+
+#imgPanel {
+	width:				90%;
+	table-layout: 		fixed;
+	float:				left;
+}
+
+#vote {
+	float: 				right;
+	width: 				65%;
+	text-align: 		center;
+
+	color: 				#661155;
+}
+
+#voteCount {
+	display:			none;
+	z-index: 			20;
+
+	font-size: 			45px;
+	font-style: 		bold;
+
+	position:			fixed;
+	width:				100px;
+	height:				25px;
+	text-align: 		right;
+}
+
+#voteOptions {
+	vertical-align: 	middle;
+	padding: 			30px;
+}
+
+#popup {
+	display: 			none;
+	z-index: 			10;
+	position: 			fixed;
+	left: 				50%;
+	top: 				50%;
+}
+
+#shade {
+	z-index: 			1;
+	position: 			fixed;
+	width: 				100%;
+	height: 			100%;
+	left: 				0;
+	top: 				0;
+
+	background-color: 	black;
+	opacity: 			0.5;
+	display:			none;
+}

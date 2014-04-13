@@ -1,0 +1,36 @@
+/*
+	Eric Dong
+	CS 351 Team Project
+	Partner: Julie(Ichen) Ko
+*/
+
+#form {
+	position:			relative;
+	background-color: 	#FFDDFF;
+	width: 				100%;
+}
+
+#join {
+	margin-left: 		auto;
+	margin-right: 		auto;
+
+	background-color: 	#FFDDFF;
+	width: 				30%;
+
+	border-style: 		ridge;
+	border-width: 		10px;
+	border-color: 		#661155;
+	padding: 			20px;
+}
+
+.right {
+	position:			absolute;
+	right:				10%;
+	width:				50%;
+}
+
+#submit {
+	position:			absolute;
+	right:				40%;
+	width:				20%;
+}
